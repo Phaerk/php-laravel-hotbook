@@ -69,6 +69,9 @@ This project showcases a **hybrid architecture** that combines a "Partner Hotel"
 * **Database:** MySQL
 * **APIs:** Google Places API (Text Search, Place Details, Autocomplete)
 * **Auth:** Laravel Breeze (Customized with Roles and Phone Number)
+* **Base HTML Templates:**
+    * **Hotelier** (by HTML Codex) - Used for the main customer-facing website.
+    * **SB Admin 2** (by Start Bootstrap) - Used for the hotel owner admin panel.
 
 ---
 
