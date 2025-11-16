@@ -13,6 +13,11 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
+    'google' => [
+        'api_key' => env('GOOGLE_PLACES_API_KEY'),
+    ], // <-- YENİ EKLENEN BÖLÜM
+
+
 
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),

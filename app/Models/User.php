@@ -6,6 +6,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use App\Models\Hotel;
+use App\Models\Booking;
 
 class User extends Authenticatable
 {
@@ -21,6 +24,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
+        'phone', // <-- YENİ EKLENDİ
     ];
 
     /**
@@ -44,5 +49,15 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function hotels(): HasMany
+    {
+        return $this->hasMany(Hotel::class);
+    }
+
+    public function bookings(): HasMany
+    {
+        return $this->hasMany(Booking::class);
     }
 }
