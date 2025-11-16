@@ -4,7 +4,32 @@
 
 This project showcases a **hybrid architecture** that combines a "Partner Hotel" model (local MySQL database) with a "Global Search" model (live API). The platform also features full localization support for **English**, **Turkish**, and **Spanish**.
 
-![HOTBOOK Homepage Screenshot](https.../screenshot1.jpg) ---
+##  Screenshots
+
+<p align="center">
+  <img src="public/screenshots/Home.jpg" width="400" alt="Home Page">
+  <img src="public/screenshots/Hotels.jpg" width="400" alt="Hotels Page">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/About.jpg" width="400" alt="About Page">
+  <img src="public/screenshots/Add New Hotel.jpg" width="400" alt="Add New Hotel Page">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/Admin Dashboard.jpg" width="400" alt="Admin Dashboard">
+  <img src="public/screenshots/Admin Hotels.jpg" width="400" alt="Admin Hotels">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/Admin Rezervations.jpg" width="400" alt="Admin Reservations">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/Login.jpg" width="350" alt="Login Page">
+  <img src="public/screenshots/Register.jpg" width="350" alt="Register Page">
+</p>
+
 
 ##  Key Features
 
